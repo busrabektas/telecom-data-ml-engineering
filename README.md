@@ -8,7 +8,7 @@ This project demonstrates a complete **ML engineering pipeline** for a telecom c
 - Supervised modeling (classification + regression)  
 - Model deployment with FastAPI and Docker  
 
-
+NOTE: I could not add the large dataset types to the repo due to their size.
 
 ---
 
