@@ -83,12 +83,13 @@ Receive predictions for:
 
 ### Example POST Request
 
-![alt text](<images/Ekran Resmi 2025-07-07 15.22.11.png>)
+Wrong PlanType prediction (Original PlanType: Premium DataUsage:34)
+![alt text](<images/Ekran Resmi 2025-07-08 12.29.04.png>)
 
+Correct PlanType Prediction (Original PlanType:Basic, DataUsage:34)
+![ ](<images/Ekran Resmi 2025-07-08 12.26.45.png>)
 
 ### Evaluation Metrics
-
-
 Clustering
 - Silhouette Score
 

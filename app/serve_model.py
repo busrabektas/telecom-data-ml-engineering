@@ -16,10 +16,10 @@ try:
     kmeans = joblib.load("clustering/kmeans_model.pkl")
     pca = joblib.load("clustering/pca_model.pkl")
     
-    feature_scaler = joblib.load("feature_scaler.pkl")
-    classifier = joblib.load("best_classification_model.pkl")
-    regressor = joblib.load("best_regression_model.pkl")
-    label_encoder = joblib.load("label_encoder.pkl")
+    feature_scaler = joblib.load("models/feature_scaler.pkl")
+    classifier = joblib.load("models/best_classification_model.pkl")
+    regressor = joblib.load("models/best_regression_model.pkl")
+    label_encoder = joblib.load("models/label_encoder.pkl")
     
     with open("feature_names.txt", "r") as f:
         REQUIRED_FEATURES = [line.strip() for line in f.readlines()]
@@ -53,14 +53,10 @@ class CustomerData(BaseModel):
     DataSpeed: float
     Latency: float
     SatisfactionScore: float
-    MonthlyCharges: float
-    TotalCharges: float
     PaymentMethod: str
     PaymentHistory: float
     ServiceDowntime: float
     ContractRenewal: float
-    PromotionsUsed: float
-    NumberOfDevices: float
     Churn: float
 
 def engineer_features(df):
