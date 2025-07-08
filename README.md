@@ -41,18 +41,18 @@ python preprocess_main.py
 ### 3. Train models:
 
 ```bash
-python models/supervised.py
+python app/models/supervised.py
 ````
 ```bash
-python models/unsupervised.py
+python app/models/unsupervised.py
 ````
 ### 4 Batch Inference:
 
 ```bash
-python models/inference_pipeline.py
+python app/models/inference_pipeline.py
 ````
 ```bash
-python models/inference_analyis_pipeline.py
+python app/models/inference_analyis_pipeline.py
 ````
 
 ### 5 Serve API with Docker
