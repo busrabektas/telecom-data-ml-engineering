@@ -1,0 +1,27 @@
+Age
+Tenure
+Location_encoded
+VoiceCallMinutes
+SMSsent
+IntlCallMinutes
+DataSpeed
+Latency
+NetworkIssues
+DroppedCalls
+SupportCalls
+SatisfactionScore
+PaymentHistory
+CallsPerMonth
+SMSPerMonth
+SupportCallsPerMonth
+SupportToIssueRatio
+IssueRate
+LatencyRatio
+AvgCallDuration
+Cluster
+PCA1
+PCA2
+Gender_Male
+ServiceType_Prepaid
+PaymentMethod_Debit Card
+PaymentMethod_E-Check

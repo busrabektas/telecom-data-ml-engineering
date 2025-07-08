@@ -1,0 +1,10 @@
+IssueRate
+CallsPerMonth
+SMSPerMonth
+SupportCallsPerMonth
+LatencyRatio
+TechPerformance
+SupportToIssueRatio
+AvgCallDuration
+Tenure
+Age
