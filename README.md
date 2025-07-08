@@ -31,6 +31,7 @@ This project demonstrates a complete **ML engineering pipeline** for a telecom c
 ```bash
 pip install -r requirements.txt
 ````
+## If you only want to use the already trained models and skip the training steps, you can directly proceed to step 5 (Serve API with Docker)
 ### 2. Preprocess Data
 
 ```bash
@@ -55,7 +56,7 @@ python app/models/inference_pipeline.py
 python app/models/inference_analyis_pipeline.py
 ````
 
-### 5 Serve API with Docker
+### 5.Serve API with Docker
 
 ```bash
 #build the docker image 
