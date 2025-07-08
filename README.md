@@ -60,11 +60,11 @@ python app/models/inference_analyis_pipeline.py
 
 ```bash
 #build the docker image 
-docker build -t telecom-inference .
+docker build -t odine .
 ````
 ```bash
 #run the container
-docker run -p 8000:8000 telecom-inference
+docker run -d -p 8000:8000 --name odine-api odine
 ````
 
 
@@ -80,7 +80,6 @@ Receive predictions for:
 
 - PlanType (classification output)
 
-- Customer segment (cluster ID)
 
 ### Example POST Request
 
@@ -113,10 +112,10 @@ Regression
 ## Visualizations
 Visual outputs for analysis are saved in:
 
-- clustering/: PCA plots, cluster summaries, anomalies
+- clustering/: PCA plots, cluster summaries, anomalies,models
 
-- models/: Confusion matrix, ROC curves, feature importance
+- models/: classification and regression models
 
-- deployment/: Final prediction scatterplots and performance
+- deployment/: predicted small dataset from batch inference
 
 - eda_outputs/: Correlation heatmaps, PCA loadings, variances
